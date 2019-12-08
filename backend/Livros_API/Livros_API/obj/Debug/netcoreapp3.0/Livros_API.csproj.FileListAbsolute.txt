@@ -1,0 +1,10 @@
+C:\Users\ghenr\Desktop\Teste\backend\Livros_API\Livros_API\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\ghenr\Desktop\Teste\backend\Livros_API\Livros_API\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\ghenr\Desktop\Teste\backend\Livros_API\Livros_API\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\ghenr\Desktop\Teste\backend\Livros_API\Livros_API\bin\Debug\netcoreapp3.0\Livros_API.exe
+C:\Users\ghenr\Desktop\Teste\backend\Livros_API\Livros_API\obj\Debug\netcoreapp3.0\Livros_API.csprojAssemblyReference.cache
+C:\Users\ghenr\Desktop\Teste\backend\Livros_API\Livros_API\obj\Debug\netcoreapp3.0\staticwebassets\Livros_API.StaticWebAssets.Manifest.cache
+C:\Users\ghenr\Desktop\Teste\backend\Livros_API\Livros_API\obj\Debug\netcoreapp3.0\staticwebassets\Livros_API.StaticWebAssets.xml
+C:\Users\ghenr\Desktop\Teste\backend\Livros_API\Livros_API\obj\Debug\netcoreapp3.0\Livros_API.AssemblyInfoInputs.cache
+C:\Users\ghenr\Desktop\Teste\backend\Livros_API\Livros_API\obj\Debug\netcoreapp3.0\Livros_API.AssemblyInfo.cs
+C:\Users\ghenr\Desktop\Teste\backend\Livros_API\Livros_API\obj\Debug\netcoreapp3.0\Livros_API.RazorTargetAssemblyInfo.cache
