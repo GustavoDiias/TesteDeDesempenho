@@ -1,117 +1,71 @@
 <template>
-    <div>
-        <div id="slogan" class="text-center">
-            <h1>Cadastro de Livros</h1>
-            <p class="text-secondary">Projeto simples capaz de operar um CRUD sobre Livros.</p>
-            <p class="text-secondary">Back: Dotnet Core; Front: Vue; Banco: .</p>
-        </div>
-        <div id="main">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md">
-                        <div class="card">
-                            <div class="card-body">
+    <div id="app">
 
-                                <div class="input-group flex-nowrap">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="addon-wrapping">Nome do Livro:</span>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="Harry Potter" aria-label="Nome" aria-describedby="addon-wrapping">
-                                </div>
-
-                                <br />
-
-                                <div class="input-group flex-nowrap">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="addon-wrapping">Preço:</span>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="R$20.50" aria-label="preco" aria-describedby="addon-wrapping">
-                                </div>
-
-                                <br />
-
-                                <div class="input-group flex-nowrap">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="addon-wrapping">Tipo:</span>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="Drama, Ação ..." aria-label="tipo" aria-describedby="addon-wrapping">
-                                </div>
-
-                                <br />
-
-                                <div class="input-group flex-nowrap">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="addon-wrapping">Autor:</span>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="J. K. Rowling" aria-label="autor" aria-describedby="addon-wrapping">
-                                </div>
-
-                                <br />
-
-                                <button type="submit" class="btn btn-primary">Salvar</button>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md">
-                        <div class="card">
-                            <div class="card-body">
-                                <table class="table">
-                                    <thead class="thead-dark">
-                                        <tr>
-                                            <th scope="col">#</th>
-                                            <th scope="col">Nome do Livro</th>
-                                            <th scope="col">Preço</th>
-                                            <th scope="col">Tipo</th>
-                                            <th scope="col">Autor</th>
-                                            <th scope="col">Editar</th>
-                                            <th scope="col">Excluir</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td>Teste</td>
-                                            <td>teste</td>
-                                            <td>teste</td>
-                                            <td>teste</td>
-                                            <td>teste</td>
-                                            <td>teste</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <nav>
+            <div class="nav-wrapper blue darken-1">
+                <a href="#" class="brand-logo center">Cadastro de Livros</a>
             </div>
+        </nav>
+
+        <div class="container">
+
+            <form>
+
+                <label>Nome</label>
+                <input type="text" placeholder="Nome">
+                <label>Preco</label>
+                <input type="number" placeholder="Preco">
+                <label>Categoria</label>
+                <input type="text" placeholder="Categoria">
+                <label>Autor</label>
+                <input type="text" placeholder="Autor">
+
+                <button class="waves-effect waves-light btn-small">Salvar<i class="material-icons left">save</i></button>
+
+            </form>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>NOME</th>
+                        <th>PRECO</th>
+                        <th>CATEGORIA</th>
+                        <th>AUTOR</th>
+                        <th>OPCOES</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>Design Patterns</td>
+                        <td>54.93</td>
+                        <td>Computers</td>
+                        <td>Ralph Johnson</td>
+                        <td>
+                            <button class="waves-effect btn-small blue darken-1"><i class="material-icons">create</i></button>
+                            <button class="waves-effect btn-small red darken-1"><i class="material-icons">delete_sweep</i></button>
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
         </div>
-        <div id="footer">
-            <div class="card text-center">
-                <div class="card-header">
-                    Teste de Desempenho
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Autor</h5>
-                    <p class="card-text">Gustavo Henrique Dias Silva</p>
-                    <p><a href="#">GitHub</a></p>
-                    <p><a href="#">Linkedin</a></p>
-                    <p><a href="#">Email</a></p>
-                </div>
-                <div class="card-footer text-muted">
-                    @Corpyright
-                </div>
-            </div>
-        </div>
+
     </div>
 </template>
 
 <script>
-    import "bootstrap/dist/css/bootstrap.css"
-    import "font-awesome/css/font-awesome.css"
 
 export default {
-  name: 'app',
+
 }
 </script>
 
