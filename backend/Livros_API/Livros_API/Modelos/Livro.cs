@@ -10,7 +10,7 @@ namespace Livros_API.Modelos
         public string Id { get; set; }
 
         [BsonElement("Nome")]
-        public string LivroNome { get; set; }
+        public string Nome { get; set; }
 
         public decimal Preco { get; set; }
 
