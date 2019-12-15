@@ -1,4 +1,9 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\services"
+  ],
+  "SelectedNode": "\\src\\services\\livros.js",
   "PreviewInSolutionExplorer": false
 }
