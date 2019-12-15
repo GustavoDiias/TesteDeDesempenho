@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\assets",
     "\\src\\services"
   ],
-  "SelectedNode": "\\src\\services\\livros.js",
+  "SelectedNode": "\\src\\services\\config.js",
   "PreviewInSolutionExplorer": false
 }
