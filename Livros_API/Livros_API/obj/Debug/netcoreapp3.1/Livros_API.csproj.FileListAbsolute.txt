@@ -15,10 +15,11 @@ C:\Users\Gabi\Desktop\TesteDeDesempenho\Livros_API\Livros_API\bin\Debug\netcorea
 C:\Users\Gabi\Desktop\TesteDeDesempenho\Livros_API\Livros_API\obj\Debug\netcoreapp3.1\Livros_API.csprojAssemblyReference.cache
 C:\Users\Gabi\Desktop\TesteDeDesempenho\Livros_API\Livros_API\obj\Debug\netcoreapp3.1\staticwebassets\Livros_API.StaticWebAssets.Manifest.cache
 C:\Users\Gabi\Desktop\TesteDeDesempenho\Livros_API\Livros_API\obj\Debug\netcoreapp3.1\staticwebassets\Livros_API.StaticWebAssets.xml
-C:\Users\Gabi\Desktop\TesteDeDesempenho\Livros_API\Livros_API\obj\Debug\netcoreapp3.1\Livros_API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Gabi\Desktop\TesteDeDesempenho\Livros_API\Livros_API\obj\Debug\netcoreapp3.1\Livros_API.AssemblyInfoInputs.cache
 C:\Users\Gabi\Desktop\TesteDeDesempenho\Livros_API\Livros_API\obj\Debug\netcoreapp3.1\Livros_API.AssemblyInfo.cs
 C:\Users\Gabi\Desktop\TesteDeDesempenho\Livros_API\Livros_API\obj\Debug\netcoreapp3.1\Livros_API.RazorTargetAssemblyInfo.cache
 C:\Users\Gabi\Desktop\TesteDeDesempenho\Livros_API\Livros_API\obj\Debug\netcoreapp3.1\Livros_API.csproj.CopyComplete
 C:\Users\Gabi\Desktop\TesteDeDesempenho\Livros_API\Livros_API\obj\Debug\netcoreapp3.1\Livros_API.dll
 C:\Users\Gabi\Desktop\TesteDeDesempenho\Livros_API\Livros_API\obj\Debug\netcoreapp3.1\Livros_API.pdb
+C:\Users\Gabi\Desktop\TesteDeDesempenho\Livros_API\Livros_API\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+C:\Users\Gabi\Desktop\TesteDeDesempenho\Livros_API\Livros_API\obj\Debug\netcoreapp3.1\Livros_API.MvcApplicationPartsAssemblyInfo.cache

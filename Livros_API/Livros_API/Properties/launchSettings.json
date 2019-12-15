@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:5000/",
-      "sslPort": 0
+      "applicationUrl": "https://localhost:44315/",
+      "sslPort": 44315
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",
@@ -15,7 +15,8 @@
       "launchUrl": "api/livros",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "ancmHostingModel": "InProcess"
     },
     "Livros_API": {
       "commandName": "Project",
@@ -24,7 +25,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:5000/"
+      "applicationUrl": "https://localhost:44315/"
     }
   }
 }

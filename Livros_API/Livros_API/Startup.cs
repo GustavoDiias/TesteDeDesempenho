@@ -31,6 +31,8 @@ namespace Livros_API
 
             services.AddSingleton<ServicoLivro>();
 
+            services.AddCors();
+
             services.AddControllers();
         }
 
@@ -51,7 +53,9 @@ namespace Livros_API
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            app.UseCors(option => option.AllowAnyOrigin());
+
+            app.UseCors("AllowSpecificOrigin");
 
             app.UseEndpoints(endpoints =>
             {

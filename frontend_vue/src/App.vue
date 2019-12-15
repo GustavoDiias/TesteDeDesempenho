@@ -9,7 +9,6 @@
 
         <div class="container">
             <form @submit.prevent="salvar">
-
                 <label>Nome</label>
                 <input type="text" placeholder="Nome" v-model="livro.nome">
                 <label>Preco</label>
