@@ -1,31 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabi\\Desktop\\TesteDeDesempenho\\backend\\Livros_API\\Livros_API\\Livros_API.csproj": {}
+    "C:\\Users\\Gabi\\Desktop\\TesteDeDesempenho\\Livros_API\\Livros_API\\Livros_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabi\\Desktop\\TesteDeDesempenho\\backend\\Livros_API\\Livros_API\\Livros_API.csproj": {
+    "C:\\Users\\Gabi\\Desktop\\TesteDeDesempenho\\Livros_API\\Livros_API\\Livros_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabi\\Desktop\\TesteDeDesempenho\\backend\\Livros_API\\Livros_API\\Livros_API.csproj",
+        "projectUniqueName": "C:\\Users\\Gabi\\Desktop\\TesteDeDesempenho\\Livros_API\\Livros_API\\Livros_API.csproj",
         "projectName": "Livros_API",
-        "projectPath": "C:\\Users\\Gabi\\Desktop\\TesteDeDesempenho\\backend\\Livros_API\\Livros_API\\Livros_API.csproj",
+        "projectPath": "C:\\Users\\Gabi\\Desktop\\TesteDeDesempenho\\Livros_API\\Livros_API\\Livros_API.csproj",
         "packagesPath": "C:\\Users\\Gabi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabi\\Desktop\\TesteDeDesempenho\\backend\\Livros_API\\Livros_API\\obj\\",
+        "outputPath": "C:\\Users\\Gabi\\Desktop\\TesteDeDesempenho\\Livros_API\\Livros_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -36,7 +36,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "dependencies": {
             "MongoDB.Driver": {
               "target": "Package",
@@ -53,24 +53,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

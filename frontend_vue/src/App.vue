@@ -8,17 +8,16 @@
         </nav>
 
         <div class="container">
-
-            <form>
+            <form @submit.prevent="salvar">
 
                 <label>Nome</label>
-                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Nome" v-model="livro.nome">
                 <label>Preco</label>
-                <input type="number" placeholder="Preco">
+                <input type="number" placeholder="Preco" v-model="livro.preco">
                 <label>Categoria</label>
-                <input type="text" placeholder="Categoria">
+                <input type="text" placeholder="Categoria" v-model="livro.categoria">
                 <label>Autor</label>
-                <input type="text" placeholder="Autor">
+                <input type="text" placeholder="Autor" v-model="livro.autor">
 
                 <button class="waves-effect waves-light btn-small">Salvar<i class="material-icons left">save</i></button>
 
@@ -40,12 +39,12 @@
 
                 <tbody>
 
-                    <tr>
+                    <tr v-for="livro of livros" :key="livro.id">
 
-                        <td>Design Patterns</td>
-                        <td>54.93</td>
-                        <td>Computers</td>
-                        <td>Ralph Johnson</td>
+                        <td>{{livro.nome}}</td>
+                        <td>{{livro.preco}}</td>
+                        <td>{{livro.categoria}}</td>
+                        <td>{{livro.autor}}</td>
                         <td>
                             <button class="waves-effect btn-small blue darken-1"><i class="material-icons">create</i></button>
                             <button class="waves-effect btn-small red darken-1"><i class="material-icons">delete_sweep</i></button>
@@ -64,8 +63,46 @@
 
 <script>
 
+import Livro from './services/livros'
+
 export default {
 
+        data() {
+        return {
+            livro: {
+                nome: '',
+                preco: '',
+                categoria: '',
+                autor:''
+            },
+                livros:[]
+            }
+        },
+
+        mounted() {
+
+            this.listar()
+
+        },
+
+        methods: {
+
+            listar() {
+
+                Livro.listar().then(resposta => {
+                this.livros = resposta.data
+                })
+
+            },
+
+            salvar() {
+                Livro.salvar(this.livro).then(resposta => {
+                    this.livro = {}
+                    resposta.alert('Salvo com Sucesso!')
+                    this.salvar
+                })
+            }
+        }
 }
 </script>
 
